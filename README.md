@@ -54,7 +54,7 @@ LuCI > Services > HTTPS DNS Proxy → Cloudflare → Save
 
 `ssh root@192.168.1.1 "./restore.sh config-backup-YYYYMMDD-HHMM.tar.gz"`
 
-🧪 Status Check
+# 🧪 Status Check
 `df -h /`                          # Space
 
 `tailscale status`                # VPN
@@ -63,7 +63,7 @@ LuCI > Services > HTTPS DNS Proxy → Cloudflare → Save
 
 `/etc/init.d/adblock status`       # Ads
 
-📈 LuCI Dashboard Paths
+# 📈 LuCI Dashboard Paths
 Network > SQM QoS (bufferbloat)
 
 Services > Tailscale (VPN)
@@ -74,4 +74,3 @@ Services > Adblock (ads)
 
 Services > HTTPS DNS Proxy (DoH)
 
-Fork, star, contribute!
